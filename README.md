@@ -30,7 +30,7 @@ The SWOT Clock provides a visualization and a statistical analysis of the log od
 Since the set of disease genes are significantly enriched in a cluster, then the time period associated with that cluster is a window of susceptibility. 
 A cluster is significantly enriched if it has a positive log odds ratio and a p-value < 0.1.
 
-We perform the Windows of Susceptibility (WOS) analysis based on mouse data from a similar brain-in-a-dish model for mice instead of human data used by Dr. Bennett.
+Perform the Windows of Susceptibility (WOS) analysis based on mouse data from a similar brain-in-a-dish model for mice instead of human data used by Dr. Bennett.
 We will analyze the same sets of microcephaly-associated genes and Zika-associated genes to see if we can detect a similar WOS for Microcephaly and Zika-induced microcephaly in mice as in humans.
 Same technique also applies to cognitive disorders, anther disease that impacts mental function, to see if we get a similar result. 
 
