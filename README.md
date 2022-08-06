@@ -1,4 +1,4 @@
-# Windows of Susceptibility Analysis for Zika and Cognitive Disorder
+# Windows of Susceptibility Analysis for Zika Virus
 
 We will just include the introduction, conclusions, and references parts in the `README.md`
 A complete HTML version of the report is avaliable at [RPubs](http://rpubs.com/tianrui-qi/WOS-Analysis), knitted from `report.Rmd` through [RStudio](https://www.rstudio.com). 
