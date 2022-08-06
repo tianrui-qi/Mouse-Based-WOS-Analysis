@@ -3,7 +3,7 @@
 We will just include the introduction, conclusions, and references parts in the `README.md`
 A complete HTML version of the report is avaliable at [RPubs](http://rpubs.com/tianrui-qi/WOS-Analysis), knitted from `report.Rmd` through [RStudio](https://www.rstudio.com). 
 
-# Introduction
+## Introduction
 
 From [WHO](https://www.who.int/news-room/fact-sheets/detail/zika-virus), Zika virus disease is caused by a virus transmitted primarily by Aedes mosquitoes, which bite during the day. 
 Symptoms are generally mild and include fever, rash, conjunctivitis, muscle and joint pain, malaise or headache.
@@ -34,13 +34,13 @@ Perform the windows of susceptibility (WOS) analysis based on mouse data from a 
 Analyze the same sets of microcephaly-associated genes and Zika-associated genes to see if we can detect a similar WOS for Microcephaly and Zika-induced microcephaly in mice as in humans. 
 Same technique also applied to cognitive disorders, anther disease that impacts mental function, to see if we get a similar result. 
 
-# Conclusions
+## Conclusions
 
 We got similar WOS result in human and mouse model for both Zika and cognitive disorder.
 For Zika virus, analysis in both models show the second stage is most susceptible. 
 The last stage, the upper layers stage, is most susceptible for the cognitive disorders in human model where the stages D and E are most susceptible in mouse model, which is also end stage. 
 
-# References
+## References
 
 This is a mini project for the MATP 4400 Data Introduction to Data Mathematics by Dr. Kristin Bennett and Dr. John Erickson, Spring 2022, at Rensselaer Polytechnic Institute, Troy, NY. The background and goal of the project is given in *IDM Lab 5: Mini Project*. 
 The structure of this report is revise on the basis of *PreLab 5* and *Lab 5* templates given by instructors. 
