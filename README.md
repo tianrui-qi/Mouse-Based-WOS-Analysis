@@ -31,7 +31,7 @@ Since the set of disease genes are significantly enriched in a cluster, then the
 A cluster is significantly enriched if it has a positive log odds ratio and a p-value < 0.1.
 
 Perform the Windows of Susceptibility (WOS) analysis based on mouse data from a similar brain-in-a-dish model for mice instead of human data used by Dr. Bennett.
-We will analyze the same sets of microcephaly-associated genes and Zika-associated genes to see if we can detect a similar WOS for Microcephaly and Zika-induced microcephaly in mice as in humans.
+We analyze the same sets of microcephaly-associated genes and Zika-associated genes to see if we can detect a similar WOS for Microcephaly and Zika-induced microcephaly in mice as in humans.
 Same technique also applies to cognitive disorders, anther disease that impacts mental function, to see if we get a similar result. 
 
 # Conclusions
