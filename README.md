@@ -1,7 +1,62 @@
 # Windows of Susceptibility Analysis for Zika Virus
 
-We just include the introduction, conclusions, and references parts in the `README.md`
-A complete HTML version of the report is avaliable at [RPubs](http://rpubs.com/tianrui-qi/WOS-Analysis), knitted from `report.Rmd` through [RStudio](https://www.rstudio.com). 
+We just include the required R-package installation, introduction, conclusions, and references parts in the `README.md`
+A complete report is avaliable at [Craft](https://www.craft.do/s/JuS7gsaNimGyKS), same as the HTML version knitted from `report.Rmd` through [RStudio](https://www.rstudio.com). 
+
+## Required R-package Installation
+
+```r
+r = getOption("repos")
+r["CRAN"] = "http://cran.rstudio.com"
+options(repos = r)
+
+if (!require("gplots")) {
+  install.packages("gplots")
+  library(gplots)
+}
+if (!require("ggplot2")) {
+  install.packages("ggplot2")
+  library(ggplot2)
+}
+if (!require("ggbiplot")) {
+   devtools::install_git("https://github.com/vqv/ggbiplot.git")
+   library(ggbiplot)
+}
+if (!require("ggbiplot")) {
+   install.packages("ggbiplot")
+   library(ggbiplot)
+}
+if (!require("ComplexHeatmap")) {
+  library(devtools)
+  install_github("jokergoo/ComplexHeatmap")
+  library(ComplexHeatmap)
+}
+if (!require("fields")) {
+  install.packages("fields")
+  library(fields)
+}
+if (!require("hablar")) {
+  install.packages("hablar")
+  library(hablar)
+}
+if (!require("knitr")) {
+  install.packages("knitr")
+  library(knitr)
+}
+if (!require("matlab")) {
+   install.packages("matlab")
+   library(matlab)
+}
+if (!require("tibble")) {
+  install.packages("tibble")
+  library(tibble)
+}
+if (!require("tidyr")) {
+  install.packages("tidyr")
+  library(tidyr)
+}
+knitr::opts_chunk$set(echo = TRUE)
+```
 
 ## Introduction
 
