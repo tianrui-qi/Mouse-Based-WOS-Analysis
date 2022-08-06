@@ -128,7 +128,7 @@ We then change the columns' name to their actual meaning and create a matrix for
 
 ```{r}
 # read data as data frame
-Mouse.df <- read.csv("datasets/MouseHomologData.csv", row.names = 1) 
+Mouse.df <- read.csv("data/MouseHomologData.csv", row.names = 1) 
 head(Mouse.df)  # preview of the data frame
 
 # change column name
@@ -259,7 +259,7 @@ We read Zika genes and show them on the cluster biplot of the mouse model.
 
 ```{r}
 # get sample data
-disease.df <- read.csv("datasets/Zikamicrocephaly_data.csv",row.names = 1)
+disease.df <- read.csv("data/Zikamicrocephaly_data.csv",row.names = 1)
 disease_symbols <- intersect(as.character(disease.df$symbol), as.character(rownames(Mouse.df)))
 
 label <- as.factor(km$cluster)
@@ -357,7 +357,7 @@ The PCA and cluster of data is from the mouse data
 
 ```{r}
 # get sample data
-disease.df <- read.csv("datasets/Cognitive disorder_heat_map_data.csv",row.names = 1)
+disease.df <- read.csv("data/Cognitive disorder_heat_map_data.csv",row.names = 1)
 disease_symbols <- intersect(as.character(disease.df$symbol), as.character(rownames(Mouse.df)))
 
 label <- as.factor(km$cluster)
