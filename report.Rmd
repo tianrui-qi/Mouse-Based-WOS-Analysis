@@ -42,43 +42,29 @@ if (!require("ComplexHeatmap")) {
   install_github("jokergoo/ComplexHeatmap")
   library(ComplexHeatmap)
 }
-if (!require("knitr")) {
-  install.packages("knitr")
-  library(knitr)
-}
-if (!require("scatterplot3d")) {
-  install.packages("scatterplot3d")
-  library(scatterplot3d)
-}
 if (!require("fields")) {
   install.packages("fields")
   library(fields)
 }
-if (!require("tibble")) {
-  install.packages("tibble")
-  library(tibble)
-}
-if (!require("dplyr")) {
-  install.packages("dplyr")
-  library(dplyr)
-}
-
-if (!require("tidyr")) {
-  install.packages("tidyr")
-  library(tidyr)
-}
-
 if (!require("hablar")) {
   install.packages("hablar")
   library(hablar)
+}
+if (!require("knitr")) {
+  install.packages("knitr")
+  library(knitr)
 }
 if (!require("matlab")) {
    install.packages("matlab")
    library(matlab)
 }
-if(!require("plotrix")){
-  install.packages("plotrix")
-  library(plotrix)
+if (!require("tibble")) {
+  install.packages("tibble")
+  library(tibble)
+}
+if (!require("tidyr")) {
+  install.packages("tidyr")
+  library(tidyr)
 }
 knitr::opts_chunk$set(echo = TRUE)
 ```
@@ -352,8 +338,7 @@ Thus, for Zika disease, stage B is the most susceptible period base on the mouse
 
 # 4. WOS Analysis of Cognitive Disorder
 
-Same process as above, first we get the data point of Cognitive Disorder, and then make the biplot using these point.
-The PCA and cluster of data is from the mouse data
+Same process as above, we read cognitive disorder genes and show them on the cluster biplot of the mouse model.
 
 ```{r}
 # get sample data
