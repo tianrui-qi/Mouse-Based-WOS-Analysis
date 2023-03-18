@@ -1,7 +1,7 @@
 # Windows of Susceptibility Analysis for Zika Virus
 
 We just include the required R-package installation, introduction, conclusions, and references parts in the `README.md`
-A complete report is avaliable at [Notion](https://tianrui-qi.notion.site/WOS-Analysis-for-Zika-Virus-c3e2381e312a464a834b5f359d64adad), same as the HTML version knitted from `report.Rmd` through [RStudio](https://www.rstudio.com). 
+A complete report is avaliable at [Craft](https://www.craft.do/s/mf2MellNzocVms), same as the HTML version knitted from `report.Rmd` through [RStudio](https://www.rstudio.com). 
 
 ## Required R-package Installation
 
