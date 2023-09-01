@@ -78,7 +78,7 @@ This suggests that human embryos are particularly susceptible to Zika-induced mi
 Clustering was used to identify the stages of development in humans.
 Principal component analysis (PCA), data visualization, and log odds ratio analysis were used to
 show when these stages occur.
-An advanced visualization, called a Susceptibility Window Ontological Transcription (SWOT) Clock, is available at [here](https://semnext.tw.rpi.edu/swotclock/).
+An advanced visualization, called a Susceptibility Window Ontological Transcription (SWOT) Clock, is available at [here](https://github.com/mpoegel/SemNExT-Visualizations).
 Given a set of genes associated with a disease, the SWOT clock can be used to help identify time periods of cortical development that may be susceptible to changes in those genes.
 Recall each cluster of gene represents a distinct stage of development, if a set of genes occurs more than expected (a.k.a enriched) for a given stages then it is likely that brain development may be impacted by changes in the activities of those genes during that stage.
 The SWOT Clock provides a visualization and a statistical analysis of the log odds ratio of each cluster along with its p-value.
