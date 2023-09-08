@@ -1,7 +1,7 @@
 # Windows of Susceptibility Analysis for Brain Diseases
 
+A complete report is avaliable at [Craft](https://www.craft.do/s/mf2MellNzocVms), same as `report.Rmd`. 
 We just include the required R-package installation, introduction, conclusions, and references parts in the `README.md`
-A complete report is avaliable at [Craft](https://www.craft.do/s/mf2MellNzocVms), same as the HTML version knitted from `report.Rmd` through [RStudio](https://www.rstudio.com). 
 
 ## Required R-package Installation
 
