@@ -1,4 +1,4 @@
-# Windows of Susceptibility Analysis for Brain Diseases
+# Windows of Susceptibility Analysis for Zika and Cognitive Disorder
 
 A complete report is avaliable at [Craft](https://craft.tianrui-qi.com/wos-analysis), same as `report.Rmd`. 
 We just include the required R-package installation, introduction, conclusions, and references parts in the `README.md`
