@@ -1,62 +1,6 @@
 # Windows of Susceptibility Analysis for Brain Diseases
 
-A complete report is avaliable at [Craft](https://craft.tianrui-qi.com/wos-analysis), same as `report.Rmd`. 
-We just include the required R-package installation, introduction, conclusions, and references parts in the `README.md`
-
-## Required R-package Installation
-
-```r
-r = getOption("repos")
-r["CRAN"] = "http://cran.rstudio.com"
-options(repos = r)
-
-if (!require("gplots")) {
-  install.packages("gplots")
-  library(gplots)
-}
-if (!require("ggplot2")) {
-  install.packages("ggplot2")
-  library(ggplot2)
-}
-if (!require("ggbiplot")) {
-   devtools::install_git("https://github.com/vqv/ggbiplot.git")
-   library(ggbiplot)
-}
-if (!require("ggbiplot")) {
-   install.packages("ggbiplot")
-   library(ggbiplot)
-}
-if (!require("ComplexHeatmap")) {
-  library(devtools)
-  install_github("jokergoo/ComplexHeatmap")
-  library(ComplexHeatmap)
-}
-if (!require("fields")) {
-  install.packages("fields")
-  library(fields)
-}
-if (!require("hablar")) {
-  install.packages("hablar")
-  library(hablar)
-}
-if (!require("knitr")) {
-  install.packages("knitr")
-  library(knitr)
-}
-if (!require("matlab")) {
-   install.packages("matlab")
-   library(matlab)
-}
-if (!require("tibble")) {
-  install.packages("tibble")
-  library(tibble)
-}
-if (!require("tidyr")) {
-  install.packages("tidyr")
-  library(tidyr)
-}
-knitr::opts_chunk$set(echo = TRUE)
-```
+A complete report is avaliable at [Craft](https://craft.tianrui-qi.com/wos-analysis), same as `report.Rmd`.
 
 ## Introduction
 
