@@ -1,6 +1,6 @@
 # Windows of Susceptibility Analysis for Brain Diseases
 
-A complete report is avaliable at [Craft](https://craft.tianrui-qi.com/wos-analysis), same as `report.Rmd`.
+A complete report is avaliable at [Craft](https://craft.tianrui-qi.com/wos-analysis), same as [report.Rmd](/report.Rmd).
 
 ## Introduction
 
